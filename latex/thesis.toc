@@ -3,9 +3,9 @@
 \contentsline {chapter}{\chapternumberline {3}Method}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Design of the \textit {Evaluation Study}}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Design of the \textit {Drawing Study}}{11}{section.3.2}
-\contentsline {chapter}{\chapternumberline {4}Results}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Results of the \textit {Evaluation Study}}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Results of the \textit {Drawing Study}}{13}{section.4.2}
-\contentsline {chapter}{\chapternumberline {5}Discussion}{15}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{17}{chapter.6}
-\contentsline {chapter}{Bibliography}{19}{section*.13}
+\contentsline {chapter}{\chapternumberline {4}Results}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Results of the \textit {Evaluation Study}}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Results of the \textit {Drawing Study}}{15}{section.4.2}
+\contentsline {chapter}{\chapternumberline {5}Discussion}{17}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{19}{chapter.6}
+\contentsline {chapter}{Bibliography}{21}{section*.15}
