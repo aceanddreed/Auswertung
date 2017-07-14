@@ -1,0 +1,172 @@
+\begin{thebibliography}{}
+
+\bibitem[Aigner et~al., 2013]{aigner2013evalbench}
+Aigner, W., Hoffmann, S., and Rind, A. (2013).
+\newblock Evalbench: a software library for visualization evaluation.
+\newblock In {\em Computer Graphics Forum}, volume~32, pages 41--50. Wiley
+  Online Library.
+
+\bibitem[Aigner et~al., 2007]{aigner2007visualizing}
+Aigner, W., Miksch, S., M{\"u}ller, W., Schumann, H., and Tominski, C. (2007).
+\newblock Visualizing time-oriented data—a systematic view.
+\newblock {\em Computers \& Graphics}, 31(3):401--409.
+
+\bibitem[Aigner et~al., 2011]{aigner2011visualizationWeb}
+Aigner, W., Miksch, S., Schumann, H., and Tominski, C. (2011).
+\newblock Visualization of time-oriented data.
+\newblock \url{http://www.timeviz.net/}.
+
+\bibitem[Aigner et~al., 2005]{aigner2005planninglines}
+Aigner, W., Miksch, S., Thurnher, B., and Biffl, S. (2005).
+\newblock Planninglines: novel glyphs for representing temporal uncertainties
+  and their evaluation.
+\newblock In {\em Information Visualisation, 2005. Proceedings. Ninth
+  International Conference on}, pages 457--463. IEEE.
+
+\bibitem[Allen, 1983]{allen1983maintaining}
+Allen, J.~F. (1983).
+\newblock Maintaining knowledge about temporal intervals.
+\newblock {\em Communications of the ACM}, 26(11):832--843.
+
+\bibitem[Billiet et~al., 2016]{billiet2016visualizing}
+Billiet, C., Van~de Weghe, N., Deploige, J., and De~Tre, G. (2016).
+\newblock Visualizing and reasoning with imperfect time intervals in 2d.
+\newblock {\em IEEE Transactions on Fuzzy Systems}.
+
+\bibitem[Chittaro and Combi, 2001]{chittaro2001visual}
+Chittaro, L. and Combi, C. (2001).
+\newblock Visual definition of temporal clinical abstractions: A user interface
+  based on novel metaphors.
+\newblock In {\em Conference on Artificial Intelligence in Medicine in Europe},
+  pages 227--230. Springer.
+
+\bibitem[Correll and Gleicher, 2014]{correll2014error}
+Correll, M. and Gleicher, M. (2014).
+\newblock Error bars considered harmful: Exploring alternate encodings for mean
+  and error.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  20(12):2142--2151.
+
+\bibitem[Ferris et~al., 2010]{ferris2010onebusaway}
+Ferris, B., Watkins, K., and Borning, A. (2010).
+\newblock Onebusaway: results from providing real-time arrival information for
+  public transit.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 1807--1816. ACM.
+
+\bibitem[Frank, 1998]{frank1998different}
+Frank, A.~U. (1998).
+\newblock Different types of “times” in gis.
+\newblock {\em Spatial and temporal reasoning in geographic information
+  systems}, pages 40--62.
+
+\bibitem[Griethe et~al., 2006]{griethe2006visualization}
+Griethe, H., Schumann, H., et~al. (2006).
+\newblock The visualization of uncertain data: Methods and problems.
+\newblock In {\em SimVis}, pages 143--156.
+
+\bibitem[Gschwandtner et~al., 2016]{gschwandtner2016visual}
+Gschwandtner, T., B{\"o}gl, M., Federico, P., and Miksch, S. (2016).
+\newblock Visual encodings of temporal uncertainty: A comparative user study.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  22(1):539--548.
+
+\bibitem[Harris, 2000]{harris2000information}
+Harris, R.~L. (2000).
+\newblock {\em Information graphics: A comprehensive illustrated reference}.
+\newblock Oxford University Press.
+
+\bibitem[Hullman, 2016]{hullman2016evaluating}
+Hullman, J. (2016).
+\newblock Why evaluating uncertainty visualization is error prone.
+\newblock In {\em Proceedings of the Beyond Time and Errors on Novel Evaluation
+  Methods for Visualization}, pages 143--151. ACM.
+
+\bibitem[Kay et~al., 2016]{2016-when-ish-is-my-bus}
+Kay, M., Kola, T., Hullman, J., and Munson, S. (2016).
+\newblock When(ish) is my bus? user-centered visualizations of uncertainty in
+  everyday, mobile predictive systems.
+\newblock In {\em ACM Human Factors in Computing Systems (CHI)}.
+
+\bibitem[Kosara et~al., 2003]{kosara2003thoughts}
+Kosara, R., Healey, C.~G., Interrante, V., Laidlaw, D.~H., and Ware, C. (2003).
+\newblock Thoughts on user studies: Why, how, and when.
+\newblock {\em IEEE Computer Graphics and Applications}, 23(4):20--25.
+
+\bibitem[Kosara and Miksch, 2001]{kosara2001metaphors}
+Kosara, R. and Miksch, S. (2001).
+\newblock Metaphors of movement: a visualization and user interface for
+  time-oriented, skeletal plans.
+\newblock {\em Artificial intelligence in medicine}, 22(2):111--131.
+
+\bibitem[MacEachren et~al., 2012]{maceachren2012visual}
+MacEachren, A.~M., Roth, R.~E., O'Brien, J., Li, B., Swingley, D., and Gahegan,
+  M. (2012).
+\newblock Visual semiotics \& uncertainty visualization: An empirical study.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  18(12):2496--2505.
+
+\bibitem[Messner, 2000]{messner2000time}
+Messner, P. (2000).
+\newblock {\em Time shapes: a visualization for temporal uncertainty in
+  planning}.
+\newblock Citeseer.
+
+\bibitem[Pang et~al., 1997]{pang1997approaches}
+Pang, A.~T., Wittenbrink, C.~M., and Lodha, S.~K. (1997).
+\newblock Approaches to uncertainty visualization.
+\newblock {\em The Visual Computer}, 13(8):370--390.
+
+\bibitem[Rit, 1986]{rit1986propagating}
+Rit, J.-F. (1986).
+\newblock Propagating temporal constraints for scheduling.
+\newblock In {\em AAAI}, volume~86, pages 383--388.
+
+\bibitem[Robertson et~al., 2008]{robertson2008effectiveness}
+Robertson, G., Fernandez, R., Fisher, D., Lee, B., and Stasko, J. (2008).
+\newblock Effectiveness of animation in trend visualization.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  14(6):1325--1332.
+
+\bibitem[Sanyal et~al., 2009]{sanyal2009user}
+Sanyal, J., Zhang, S., Bhattacharya, G., Amburn, P., and Moorhead, R. (2009).
+\newblock A user study to compare four uncertainty visualization methods for 1d
+  and 2d datasets.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  15(6):1209--1218.
+
+\bibitem[Tory and Moller, 2004]{tory2004human}
+Tory, M. and Moller, T. (2004).
+\newblock Human factors in visualization research.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  10(1):72--84.
+
+\bibitem[Tufte, 1985]{tufte1985visual}
+Tufte, E.~R. (1985).
+\newblock The visual display of quantitative information.
+\newblock {\em Journal for Healthcare Quality}, 7(3):15.
+
+\bibitem[Walny et~al., 2011]{walny2011visual}
+Walny, J., Carpendale, S., Riche, N.~H., Venolia, G., and Fawcett, P. (2011).
+\newblock Visual thinking in action: Visualizations as used on whiteboards.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  17(12):2508--2517.
+
+\bibitem[Walny et~al., 2015]{walny2015exploratory}
+Walny, J., Huron, S., and Carpendale, S. (2015).
+\newblock An exploratory study of data sketching for visual representation.
+\newblock In {\em Computer Graphics Forum}, volume~34, pages 231--240. Wiley
+  Online Library.
+
+\bibitem[Xu et~al., 2012]{xu2012user}
+Xu, K., Rooney, C., Passmore, P., Ham, D.-H., and Nguyen, P.~H. (2012).
+\newblock A user study on curved edges in graph visualization.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  18(12):2449--2456.
+
+\bibitem[Zuk et~al., 2005]{zuk2005visualizing}
+Zuk, T., Carpendale, M. S.~T., and Glanzman, W.~D. (2005).
+\newblock Visualizing temporal uncertainty in 3d virtual reconstructions.
+\newblock In {\em VAST}, volume 2005, page 6th.
+
+\end{thebibliography}
