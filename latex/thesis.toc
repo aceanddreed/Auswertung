@@ -1,7 +1,11 @@
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}Related Work}{3}{chapter.2}
-\contentsline {chapter}{\chapternumberline {3}Method}{5}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}Results}{7}{chapter.4}
-\contentsline {chapter}{\chapternumberline {5}Discussion}{9}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{11}{chapter.6}
-\contentsline {chapter}{Bibliography}{13}{section*.3}
+\contentsline {chapter}{\chapternumberline {3}Method}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Design of the \textit {Evaluation Study}}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Design of the \textit {Drawing Study}}{11}{section.3.2}
+\contentsline {chapter}{\chapternumberline {4}Results}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Results of the \textit {Evaluation Study}}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Results of the \textit {Drawing Study}}{13}{section.4.2}
+\contentsline {chapter}{\chapternumberline {5}Discussion}{15}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{17}{chapter.6}
+\contentsline {chapter}{Bibliography}{19}{section*.13}
