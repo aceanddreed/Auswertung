@@ -2,30 +2,30 @@ The \textit{Drawing Study} is designed to be of exploratory nature. This means t
 
 To gain these insights, we describe predefined scenarios, which encompass some kind of temporal uncertainty, to our study participants and ask them to draw a visualization sketch that intuitively represents this given scenario. Furthermore, the participants are always provided with a certain task a hypothetical user should be able to efficiently solve given an implementation of the sketched design. \par \medskip
 
-To elicit the desired sketches of temporal visualizations from our study participants, we have to ask the right questions and also have to pay close attention to ask them in the right way. This means that it is imperative to not suggest any possible answers or solution approaches while communicating the task that should be solved, because this would greatly affect their given answers \cite{hullman2016evaluating}. For this reason we try our best to make the given scenario and the task as clear as possible to our participant without suggesting anything that would help in the solution of the task. \par \medskip
+To elicit the desired sketches of temporal visualizations from our study participants, we have to ask the right questions and also have to pay close attention to ask them in the right way. This means that it is imperative to not suggest any possible answers or solution approaches while communicating the task that should be solved, because this would greatly affect their given answers \cite{hullman2016evaluating}. For this reason we try our best to make the given scenario and the task as clear as possible to our participant without suggesting anything that would help in the solution of the task and would steer them to a specific answer. \par \medskip
 
 The scenarios and task are chosen to be as representative as possible to many typical tasks that can be solved through the visualization of uncertainties. This specification matches the one we already had for our \textit{Evaluation Study}. Hence, we use the same 4 main types of tasks:
 \begin{enumerate}
-	\item The first task is to create a visualization that makes it possible to gauge the probability of something for a given point in time in the uncertainty interval. The concrete scenario text to be visualized is as follows: ''\textit{A bus should arrive at 12:00, but may be running late for up to 10 minutes. How would you visualize this scenario, so that you can estimate the probability of still catching the bus if you arrive at the bus station at a given point in time?}''. Figure \ref{fig:drawingT1} shows an example sketch for this scenario.
+	\item The first task is to create a visualization that makes it possible to gauge the probability of something for a given point in time in the uncertainty interval. The concrete scenario to be visualized is as follows: ''\textit{A bus should arrive at 12:00, but may be running late for up to 10 minutes. How would you visualize this scenario, so that you can estimate the probability of still catching the bus if you arrive at the bus station at a given point in time?}''. Figure \ref{fig:drawingT1} shows an example sketch for this scenario.
 	
 	\begin{figure}[H]
-		\begin{minipage}{.45\textwidth}
+		\begin{minipage}{.5\textwidth}
 			\centering
 			\captionsetup{width=0.8\textwidth}
 			\includegraphics[height=0.5\textwidth]{figures/drawingT1.png}
-			\caption{\textit{TODO}}
+			\caption{\textit{The image shows a sketch drawn to represent scenario one of the Drawing Study. It is a conventional line graph for the decreasing probability of catching the bus over time.}}
 			\label{fig:drawingT1}
 		\end{minipage}
 		\begin{minipage}{.45\textwidth}
 			\centering
-			\captionsetup{width=0.8\textwidth}
+			\captionsetup{width=1.0\textwidth}
 			\includegraphics[height=0.5\textwidth]{figures/drawingT2.png}
-			\caption{\textit{TODO}}
+			\caption{\textit{The sketch in the image represents scenario two of the Drawing Study. The extent of the uncertain end of the two given project approaches is represented by two juxtaposed time lines. Their respective average end times are explicitly marked, since these values are important for the user to solve the given task.}}
 			\label{fig:drawingT2}
 		\end{minipage}
 	\end{figure}
 	
-	\item The second task is about the comparison of two given uncertain end times of intervals. The task is to judge which of the two intervals will end earlier on average. The concrete scenario text is as follows: ''\textit{There are two possible approaches to a given project. The first approach will take 20 to 28 days, while the second one will take 23 to 26 days. How would you visualize the scenario, so you can effectively judge which of the two approaches will on average lead to an earlier completion of the project?}''. Figure \ref{fig:drawingT2} shows an example sketch for this scenario.
+	\item The second task is about the comparison of two given uncertain end times of intervals. The task is to judge which of the two intervals will end earlier on average. The concrete scenario is as follows: ''\textit{There are two possible approaches to a given project. The first approach will take 20 to 28 days, while the second one will take 23 to 26 days. How would you visualize the scenario, so you can effectively judge which of the two approaches will on average lead to an earlier completion of the project?}''. Figure \ref{fig:drawingT2} shows an example sketch for this scenario.
 	
 	\item The third task works with the same scenario as the second one and only adapts the user task that the visualization should support. Instead of judging the overall average completion time, the user should be able to make a decision which approach is better to finish the project until a given date. In other words, the user has to compare the completion probability of both approaches in a given point in time. This scenario usually did not lead to helpful answers or additional sketches, but more on that in the \hyperref[ch:discussion]{Discussion Chapter}.
 	
@@ -33,11 +33,31 @@ The scenarios and task are chosen to be as representative as possible to many ty
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.75\textwidth]{figures/drawingT4.png}
-		\caption{\textit{TODO}}
+		\includegraphics[width=0.8\textwidth]{figures/drawingT4.png}
+		\caption{\textit{This sketch visualizes the fourth scenario of the Drawing Study. Both lectures are superimposed on the same time line and are marked through their own colors (hinted at through hachures). The overlapping part is colored by mixing the two colors of the lectures.}}
 		\label{fig:drawingT4}
 	\end{figure}
 \end{enumerate} 
 
-TODO intro zu den szenarios
-TODO wir lesen die aufgaben nicht nur vor sonder erklären sie auch
+The scenarios are not only given through the mentioned texts, but are also more thoroughly explained to every participant, to make sure that everything is understood correctly and the participant knows what the given task is about. These individual explanations make it hard to not say anything that affects the participants way of thinking about the given problem and therefore have an impact on the study results. But none the less we believe that it is important to individually explain the scenarios to every participant to make sure that the tasks at hand are completely clear. \par \medskip
+
+Before the participants are given any task, they are all provided with the same introductory information. This is supposed to set the preconditions of every study session as equally as possible. During the introduction the following three main points are always made clear:
+\begin{enumerate}
+	\item The goal is to think of (interactive) computer visualizations. This means that colors, animations and any interaction techniques can be freely incorporated into the sketch. Since the visualizations are only represented as sketches, all this has to be hinted at as far as possible and explained to the study supervisor.
+	
+	\item The second point tackles a similar problem, since it emphasizes the fact that no participant should omit anything just because it is hard to sketch. The goal of the sketch is to communicate the idea of a visualization design. If any parts of this design are hard to sketch onto paper, it should be done as far as possible and verbally explained.
+	
+	\item The third point is about the usage of language within the drawing. Since almost every study participant speaks German natively, we did not want to make the explanations of their design and thoughts unnecessarily complicated, by forcing them to speak English. Since we want to use their sketches in our reports and papers though, we asked them to keep everything they write down in their sketches in English. 
+	
+\end{enumerate} 
+
+
+
+
+
+
+
+
+
+
+
