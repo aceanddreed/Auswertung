@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[MAT, 2013]{MATLAB:2013}
+ (2013).
+\newblock {\em MATLAB version 8.1.0.604 (R2013a)}.
+\newblock The Mathworks, Inc., Natick, Massachusetts.
+
 \bibitem[Aigner et~al., 2013]{aigner2013evalbench}
 Aigner, W., Hoffmann, S., and Rind, A. (2013).
 \newblock Evalbench: a software library for visualization evaluation.
@@ -50,6 +55,12 @@ Kosara, R. and Miksch, S. (2001).
   time-oriented, skeletal plans.
 \newblock {\em Artificial intelligence in medicine}, 22(2):111--131.
 
+\bibitem[Kruskal and Wallis, 1952]{kruskal1952use}
+Kruskal, W.~H. and Wallis, W.~A. (1952).
+\newblock Use of ranks in one-criterion variance analysis.
+\newblock {\em Journal of the American statistical Association},
+  47(260):583--621.
+
 \bibitem[MacEachren et~al., 2012]{maceachren2012visual}
 MacEachren, A.~M., Roth, R.~E., O'Brien, J., Li, B., Swingley, D., and Gahegan,
   M. (2012).
@@ -62,6 +73,12 @@ Messner, P. (2000).
 \newblock {\em Time shapes: a visualization for temporal uncertainty in
   planning}.
 \newblock Citeseer.
+
+\bibitem[{R Development Core Team}, 2008]{REnvironment}
+{R Development Core Team} (2008).
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+\newblock {ISBN} 3-900051-07-0.
 
 \bibitem[Robertson et~al., 2008]{robertson2008effectiveness}
 Robertson, G., Fernandez, R., Fisher, D., Lee, B., and Stasko, J. (2008).
