@@ -1,49 +1,49 @@
 Our \textit{Evaluation Study} is building on the work of \citet{gschwandtner2016visual}. \citet{gschwandtner2016visual} compare different visual encodings for temporal uncertainties in order to find out which representations work best for which kinds of tasks. Our goal, on the other hand, is to evaluate for which kinds of tasks it actually makes sense to additionally visualize the information about the temporal uncertainty at all, i.e. in which cases does the user benefit from it and in which cases is the visualized uncertainty more of a distraction and actually not supporting the user in fulfilling his or her tasks. In order to examine those proposed deliberations, we designed our \textit{Evaluation Study} and implemented it using the EvalBench framework \cite{aigner2013evalbench}. Figure \ref{fig:EvalBench_GUI} shows an example of the user interface of our study implementation inside EvalBench. \par \medskip
 
+The study was conducted on three different user groups. We applied a within-subject-design on the tasks and a between-subject-design on the visualization type. Hence, all participants had to solve the same tasks, but depending on the assigned user group, the participants got different kinds of visualizations, supporting them in fulfilling their tasks. The first user group got Gradient Plots, the second user group got Ambiguation Plots, and the third user group only got visualized mean values, so no visual information about the temporal uncertainty was given at all. However, textual information of the uncertainty intervals, was always provided in the task description for all user groups. \par \medskip
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.95\textwidth]{figures/EvalBench_GUI.png}
+	\includegraphics[width=0.99\textwidth]{figures/EvalBench_GUI.png}
 	\caption{\textit{A screenshot of our study implementation using EvalBench. On the left side the task supporting visualization is depicted. On the right side the task description and inputs for answers are displayed.}}
 	\label{fig:EvalBench_GUI}
 \end{figure}
 
-The study was conducted on three different user groups. We applied a within-subject-design on the tasks and a between-subject-design on the visualization type. Hence, all participants had to solve the same tasks, but depending on the assigned user group, the participants got different kinds of visualizations, supporting them in fulfilling their tasks. The first user group got Gradient Plots, the second user group got Ambiguation Plots, and the third user group only got visualized mean values, so no visual information about the temporal uncertainty was given at all. However, textual information of the uncertainty intervals, was always provided in the task description for all user groups. \par \medskip
-
-We defined four different task types representing typical questions which might be asked when it comes to temporal uncertainties. Therefore, our study consists of four sequential sessions, covering a wide range of possible tasks. For the first task type, the uncertainty interval of the start- or finish-time of some uncertain time event is given. Furthermore there is a specified point in time, usually lying somewhere inside the uncertainty interval. The participants now have to estimate the probability of the time event having already started or ended at this specified point in time. Figure \ref{fig:EvalBench_session1} shows how tasks of the first session look like for all user groups and how the answer is selected by the participant. Additionally to the task related question, we are also asking for the participant's confidence in his or her given answer. \par \medskip
-
-For the second task type, there are always two parallel uncertainty intervals showing the uncertain finish-times of two possible time events. Again, there is a specified point in time. In these tasks, the participants have to compare the probabilities of both time events at the specified point in time and decide for which uncertainty interval the probability is higher. Figure \ref{fig:EvalBench_session2} shows how tasks of the second session look like and how the answer is selected. \par \medskip
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{figures/EvalBench_session1.png}
-	\caption{\textit{On the left side the different task supporting visualizations for the first session are shown - from top to bottom: Gradient Plots, Ambiguation Plots, mean values. The specified point in time is marked by a red line in all plots. On the right side, there is an extract of the user interface showing the input fields for giving answers. We are not asking for a percentage value, but for some natural count instead, like suggested by \citet{hullman2016evaluating}.}}
+	\includegraphics[width=0.95\textwidth]{figures/EvalBench_session1.png}
+	\caption{\textit{On the left side the different visualizations for the Probability Estimation tasks are shown - from top to bottom: Gradient Plots, Ambiguation Plots, mean values. The specified point in time is marked by a red line in all plots. On the right side, there is an extract of the user interface showing the input fields for giving answers. We are not asking for a percentage value, but for some natural count instead, like suggested by \citet{hullman2016evaluating}.}}
 	\label{fig:EvalBench_session1}
 \end{figure}
 
+We defined four different task types representing typical questions which might be asked when it comes to temporal uncertainties. Therefore, our study consists of four sequential sessions, covering a wide range of possible tasks. For the first task type, which we refer to as \textit{Probability Estimation}, the uncertainty interval of the start- or finish-time of some uncertain time event is given. Furthermore there is a specified point in time, usually lying somewhere inside the uncertainty interval. The participants now have to estimate the probability of the time event having already started or ended at this specified point in time. Figure \ref{fig:EvalBench_session1} shows how tasks of the first session look like for all user groups and how the answer is selected by the participant. Additionally to the task related question, we are also asking for the participant's confidence in his or her given answer. \par \medskip
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{figures/EvalBench_session2.png}
-	\caption{\textit{On the left side the different task supporting visualizations for the second session are shown - from top to bottom: Gradient Plots, Ambiguation Plots, mean values. The specified point in time is marked by a red line in all plots. On the right side, there is an extract of the user interface showing the input fields for giving answers. The answer, i.e. the time event with the estimated higher probability, is selected from a set of radio buttons.}}
+	\includegraphics[width=0.95\textwidth]{figures/EvalBench_session2.png}
+	\caption{\textit{On the left side the different visualizations for the Probability Comparison tasks are shown - from top to bottom: Gradient Plots, Ambiguation Plots, mean values. The specified point in time is marked by a red line in all plots. On the right side, there is an extract of the user interface showing the input fields for giving answers. The answer, i.e. the time event with the estimated higher probability, is selected from a set of radio buttons.}}
 	\label{fig:EvalBench_session2}
 \end{figure}
 
-For the third session, tasks are similar to the second session. Again, there are two parallel uncertainty intervals showing uncertain finish-times. However, this time there is no specified point in time, but instead the participants are asked to estimate which event will finish sooner on average. Figure \ref{fig:EvalBench_session3} shows how tasks of the third session look like and how the answer is selected. \par \medskip
-
-In the fourth session, tasks revolve around overlapping uncertainty intervals of two successive event. So there is some time event with an uncertain finish-time and some time event with an uncertain start-time and those time events are overlapping to some extent. Here the participants have to estimate the probability of the overlap. Figure \ref{fig:EvalBench_session4} shows how tasks of the fourth session look like and how the answer is selected. \par \medskip
+For the second task type, there are always two parallel uncertainty intervals showing the uncertain finish-times of two possible time events. Again, there is a specified point in time. In these tasks, the participants have to compare the probabilities of both time events at the specified point in time and decide for which uncertainty interval the probability is higher. We refer to this task type as \textit{Probability Comparison}. Figure \ref{fig:EvalBench_session2} shows how tasks of the second session look like and how the answer is selected. \par \medskip
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{figures/EvalBench_session3.png}
-	\caption{\textit{On the left side the different task supporting visualizations for the third session are shown - from top to bottom: Gradient Plots, Ambiguation Plots, mean values. On the right side, there is an extract of the user interface showing the input fields for giving answers. The answer, i.e. the time event which is estimated to end sooner, is selected from a set of radio buttons.}}
+	\includegraphics[width=0.95\textwidth]{figures/EvalBench_session3.png}
+	\caption{\textit{On the left side the different visualizations for the Average Comparison tasks are shown - from top to bottom: Gradient Plots, Ambiguation Plots, mean values. On the right side, there is an extract of the user interface showing the input fields for giving answers. The answer, i.e. the time event which is estimated to end sooner, is selected from a set of radio buttons.}}
 	\label{fig:EvalBench_session3}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{figures/EvalBench_session4.png}
-	\caption{\textit{On the left side the different task supporting visualizations for the fourth session are shown - from top to bottom: Gradient Plots, Ambiguation Plots, mean values. On the right side, there is an extract of the user interface showing the input fields for giving answers. Like in the first session, we are again not asking for a percentage value, but for some natural count instead, like suggested by \citet{hullman2016evaluating}.}}
+	\includegraphics[width=0.95\textwidth]{figures/EvalBench_session4.png}
+	\caption{\textit{On the left side the different visualizations for the Overlap Estimation tasks are shown - from top to bottom: Gradient Plots, Ambiguation Plots, mean values. On the right side, there is an extract of the user interface showing the input fields for giving answers. Like in the first session, we are again not asking for a percentage value, but for some natural count instead, like suggested by \citet{hullman2016evaluating}.}}
 	\label{fig:EvalBench_session4}
 \end{figure}
+
+For the third session, tasks are similar to the second session. Again, there are two parallel uncertainty intervals showing uncertain finish-times. However, this time there is no specified point in time, but instead the participants are asked to estimate which event will finish sooner on average. We refer to these tasks as \textit{Average Comparison}. Figure \ref{fig:EvalBench_session3} shows how tasks of the third session look like and how the answer is selected. \par \medskip
+
+In the fourth session, tasks revolve around overlapping uncertainty intervals of two successive events and we therefore refer to this task type as \textit{Overlap Estimation}. So there is some time event with an uncertain finish-time and some time event with an uncertain start-time and those time events are overlapping to some extent. The participants have to estimate the probability of the overlap. Figure \ref{fig:EvalBench_session4} shows how tasks of the fourth session look like and how the answer is selected. \par \medskip
 
 
 \subsection*{Evaluation}
@@ -58,4 +58,4 @@ The evaluation of this study is based on three variables, we gathered during the
 
 Since each participant performed multiple instances of a task type per session, we calculated the average values of the measured variables per session, resulting into a total of 12 variables for each participant (three average values for each of the four sessions). On those variables we then performed Kruskal-Wallis tests to check for their statistical relevance between the individual user groups. \par \medskip
 
-While inspecting the participants' answers for the individual sessions, we noticed that there have been some obvious misunderstandings, regarding the asked probabilities. Some participants occasionally answered with the complementary probability. In order to still use those test instances, we decided to re-invert the given answers, assuming that the participants knew what they were doing. The criteria for identifying those answers which should be inverted were specified like this: If the correct probability and the participant's answer are at least 20\% apart, we check if the complementary probability of the given answer is at most 5\% off from the correct probability. If so, we invert the given answer. If the correct probability and the participant's answer are at least 70\% apart, we use a more generous tolerance interval of 10\% instead of 5\%. After undergoing these manual corrections on misunderstood tasks, the average values of testing variables have been calculated and Kruskal-Wallis tests haven been performed as mentioned before.
+While inspecting the participants' answers for the individual sessions, we noticed that there have been some obvious misunderstandings, regarding asked probabilities. Some participants occasionally answered with the complementary probability. In order to still use those test instances, we decided to re-invert the given answers, assuming that the participants knew what they were doing. The criteria for identifying those answers which should be inverted were specified like this: If the correct probability and the participant's answer are at least 20\% apart, we check if the complementary probability of the given answer is at most 5\% off from the correct probability. If so, we invert the given answer. If the correct probability and the participant's answer are at least 70\% apart, we use a more generous tolerance interval of 10\% instead of 5\%. After undergoing these manual corrections on misunderstood tasks, the average values of testing variables have been calculated and Kruskal-Wallis tests haven been performed as mentioned before.

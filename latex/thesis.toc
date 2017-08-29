@@ -9,6 +9,6 @@
 \contentsline {section}{\numberline {4.2}Results of the \textit {Drawing Study}}{20}{section.4.2}
 \contentsline {chapter}{\chapternumberline {5}Discussion}{25}{chapter.5}
 \contentsline {section}{\numberline {5.1}Discussion of the \textit {Evaluation Study}}{25}{section.5.1}
-\contentsline {section}{\numberline {5.2}Discussion of the \textit {Drawing Study}}{26}{section.5.2}
+\contentsline {section}{\numberline {5.2}Discussion of the \textit {Drawing Study}}{27}{section.5.2}
 \contentsline {chapter}{\chapternumberline {6}Conclusion}{33}{chapter.6}
 \contentsline {chapter}{Bibliography}{35}{section*.41}

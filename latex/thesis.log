@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.14)  6 AUG 2017 22:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.14)  29 AUG 2017 15:08
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1770,45 +1770,45 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
 File: figures/EvalBench_GUI.png Graphic file (type png)
 
 <use figures/EvalBench_GUI.png>
-Package pdftex.def Info: figures/EvalBench_GUI.png used on input line 5.
-(pdftex.def)             Requested size: 397.3397pt x 213.34076pt.
+Package pdftex.def Info: figures/EvalBench_GUI.png used on input line 7.
+(pdftex.def)             Requested size: 414.07343pt x 222.32726pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1946) has occurred while \output is active []
 
  [7
 
 ]
-<figures/EvalBench_session1.png, id=234, 909.3975pt x 486.31688pt>
+<figures/EvalBench_session1.png, id=232, 909.3975pt x 486.31688pt>
 File: figures/EvalBench_session1.png Graphic file (type png)
 
 <use figures/EvalBench_session1.png>
-Package pdftex.def Info: figures/EvalBench_session1.png used on input line 18.
-(pdftex.def)             Requested size: 376.42575pt x 201.2983pt.
- [8 <./figures/EvalBench_GUI.png>]
-<figures/EvalBench_session2.png, id=243, 909.3975pt x 486.31688pt>
+Package pdftex.def Info: figures/EvalBench_session1.png used on input line 14.
+(pdftex.def)             Requested size: 397.3397pt x 212.48854pt.
+ [8 <./figures/EvalBench_GUI.png> <./figures/EvalBench_session1.png>]
+<figures/EvalBench_session2.png, id=242, 909.3975pt x 486.31688pt>
 File: figures/EvalBench_session2.png Graphic file (type png)
 
 <use figures/EvalBench_session2.png>
-Package pdftex.def Info: figures/EvalBench_session2.png used on input line 25.
-(pdftex.def)             Requested size: 376.42575pt x 201.2983pt.
- [9 <./figures/EvalBench_session1.png> <./figures/EvalBench_session2.png>]
-<figures/EvalBench_session3.png, id=251, 909.3975pt x 486.31688pt>
+Package pdftex.def Info: figures/EvalBench_session2.png used on input line 23.
+(pdftex.def)             Requested size: 397.3397pt x 212.48854pt.
+
+<figures/EvalBench_session3.png, id=244, 909.3975pt x 486.31688pt>
 File: figures/EvalBench_session3.png Graphic file (type png)
 
 <use figures/EvalBench_session3.png>
-Package pdftex.def Info: figures/EvalBench_session3.png used on input line 36.
-(pdftex.def)             Requested size: 376.42575pt x 201.2983pt.
-
-<figures/EvalBench_session4.png, id=252, 909.3975pt x 486.31688pt>
-File: figures/EvalBench_session4.png Graphic file (type png)
-
-<use figures/EvalBench_session4.png>
-Package pdftex.def Info: figures/EvalBench_session4.png used on input line 43.
-(pdftex.def)             Requested size: 376.42575pt x 201.2983pt.
+Package pdftex.def Info: figures/EvalBench_session3.png used on input line 32.
+(pdftex.def)             Requested size: 397.3397pt x 212.48854pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./figures/EvalBench_session3.png>]
+ [9 <./figures/EvalBench_session2.png>]
+<figures/EvalBench_session4.png, id=250, 909.3975pt x 486.31688pt>
+File: figures/EvalBench_session4.png Graphic file (type png)
+
+<use figures/EvalBench_session4.png>
+Package pdftex.def Info: figures/EvalBench_session4.png used on input line 39.
+(pdftex.def)             Requested size: 397.3397pt x 212.48854pt.
+ [10 <./figures/EvalBench_session3.png> <./figures/EvalBench_session4.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 49.
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 54.
@@ -1818,7 +1818,8 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
-) [11 <./figures/EvalBench_session4.png>] (chapters/drawingMethod.tex
+)
+(chapters/drawingMethod.tex [11]
 <figures/drawingT1.png, id=270, 471.26062pt x 274.77657pt>
 File: figures/drawingT1.png Graphic file (type png)
 
@@ -1867,11 +1868,7 @@ Overfull \hbox (11.68268pt too wide) in paragraph at lines 1--2
 -ing. We con-ducted non-parametric Kruskal-
  []
 
-[17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-<figures/boxplots/s1_error.png, id=338, 328.97906pt x 347.04657pt>
+[17] [18] <figures/boxplots/s1_error.png, id=338, 328.97906pt x 347.04657pt>
 File: figures/boxplots/s1_error.png Graphic file (type png)
 
 <use figures/boxplots/s1_error.png>
@@ -1936,6 +1933,9 @@ File: figures/boxplots/s3_confidence.png Graphic file (type png)
 Package pdftex.def Info: figures/boxplots/s3_confidence.png used on input line 
 129.
 (pdftex.def)             Requested size: 133.84424pt x 138.36682pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [19 <./figures/boxplots/s1_error.png> <./figures/boxplots/s1_time.png> <./figu
 res/boxplots/s1_confidence.png> <./figures/boxplots/s2_error.png> <./figures/bo
 xplots/s2_time.png> <./figures/boxplots/s2_confidence.png>]
@@ -2041,7 +2041,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 (chapters/discussion.tex (chapters/discussionEvaluation.tex [25
 
 ])
-(chapters/discussionDrawing.tex [26]
+(chapters/discussionDrawing.tex
+Underfull \vbox (badness 4543) has occurred while \output is active []
+
+ [26]
 <figures/gradientSketch.jpg, id=433, 1927.2pt x 882.29625pt>
 File: figures/gradientSketch.jpg Graphic file (type jpg)
 
@@ -2090,7 +2093,7 @@ Overfull \hbox (2.08049pt too wide) in paragraph at lines 29--43
  []
 
 [28 <./figures/bounded.jpg> <./figures/timeBotTop.jpg>]
-<figures/t2graph.jpg, id=458, 2453.165pt x 1778.645pt>
+<figures/t2graph.jpg, id=456, 2453.165pt x 1778.645pt>
 File: figures/t2graph.jpg Graphic file (type jpg)
 
 <use figures/t2graph.jpg>
@@ -2101,7 +2104,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 58--58
 \T1/ptm/m/it/10.95 su-per-im-posed graphs. The graphs
  []
 
-<figures/t2length.jpg, id=459, 1352.05125pt x 421.575pt>
+<figures/t2length.jpg, id=457, 1352.05125pt x 421.575pt>
 File: figures/t2length.jpg Graphic file (type jpg)
 
 <use figures/t2length.jpg>
@@ -2117,13 +2120,13 @@ Overfull \hbox (2.08049pt too wide) in paragraph at lines 54--68
 []$[]$ $[]$ 
  []
 
-<figures/t2color.jpg, id=460, 2850.65pt x 1332.98pt>
+<figures/t2color.jpg, id=458, 2850.65pt x 1332.98pt>
 File: figures/t2color.jpg Graphic file (type jpg)
  <use figures/t2color.jpg>
 Package pdftex.def Info: figures/t2color.jpg used on input line 73.
 (pdftex.def)             Requested size: 178.86115pt x 83.64944pt.
 
-<figures/t2interaction.jpg, id=461, 2983.145pt x 843.15pt>
+<figures/t2interaction.jpg, id=459, 2983.145pt x 843.15pt>
 File: figures/t2interaction.jpg Graphic file (type jpg)
 
 <use figures/t2interaction.jpg>
@@ -2191,33 +2194,35 @@ Overfull \hbox (2.08049pt too wide) in paragraph at lines 115--129
 []$[]$ $[]$ 
  []
 
-))
-Underfull \vbox (badness 10000) has occurred while \output is active []
+)) [30 <./figures/t4clock.png> <./figures/t4bounded.jpg>] [31 <./figures/t4pos.
+png> <./figures/t4shape.jpg>] [32
 
- [30 <./figures/t4clock.png> <./figures/t4bounded.jpg>] [31 <./figures/t4pos.pn
-g> <./figures/t4shape.jpg>] [32
-
-] (chapters/conclusion.tex [33]) (thesis.bbl [34] [35
+] (chapters/conclusion.tex [33]) (thesis.bbl
+[34] [35
 
 ])
 
 Class memoir Warning: The material used in the headers is too large
 (77.80435pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 171.
+(in both cases you will find help in the memoir manual). on input line 170.
 
 [36]
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
  (thesis.aux (titlepage.aux) (titlepage_en.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: E8F9A41A47CF0741031BE15E98BFE602;850.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
  )
 (\end occurred inside a group at level 1)
 
@@ -2226,11 +2231,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
 Here is how much of TeX's memory you used:
  25446 strings out of 493323
  457885 string characters out of 3140773
- 600988 words of memory out of 3000000
+ 601060 words of memory out of 3000000
  28307 multiletter control sequences out of 15000+200000
  91921 words of font info for 116 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,66p,1360b,4897s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 75i,19n,66p,1474b,4897s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<D:/Progra
 mme/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programme/MiKTeX 2
 .9/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/Programme/MiKTeX 2.9/font
@@ -2239,7 +2244,7 @@ ic/uhvr8a.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><D:/Prog
 ramme/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><D:/Programme/MiKTeX 2.9/font
 s/type1/urw/times/utmbi8a.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/urw/times/ut
 mr8a.pfb><D:/Programme/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (44 pages, 6837811 bytes).
+Output written on thesis.pdf (44 pages, 6839487 bytes).
 PDF statistics:
  573 PDF objects out of 1000 (max. 8388607)
  124 named destinations out of 1000 (max. 500000)
